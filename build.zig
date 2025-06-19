@@ -27,6 +27,7 @@ pub fn build(b: *std.Build) void {
     lib.addCSourceFiles(.{
         .root = mimalloc_dep.path("src"),
         .files = &.{"static.c"},
+        .flags = &.{"-Wno-date-time"},
     });
     lib.addIncludePath(mimalloc_dep.path("include"));
     lib.installHeadersDirectory(mimalloc_dep.path("include"), ".", .{});
