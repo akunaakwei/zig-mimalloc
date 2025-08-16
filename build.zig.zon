@@ -1,12 +1,12 @@
 .{
     .name = .mimalloc,
-    .version = "3.0.3",
+    .version = "3.1.5",
     .fingerprint = 0x26391c395c30266b,
     .minimum_zig_version = "0.14.0",
     .dependencies = .{
         .mimalloc = .{
-            .url = "https://github.com/microsoft/mimalloc/archive/refs/tags/v3.0.3.tar.gz",
-            .hash = "N-V-__8AADWGTQBGLWrkupOodNSVKEqRA7xaEJ8pdJjYzXvI",
+            .url = "https://github.com/microsoft/mimalloc/archive/refs/tags/v3.1.5.tar.gz  ",
+            .hash = "N-V-__8AAHPQTQDkH0rToYlrIp1SrXj7MNgneE3wnHa6SSYS",
         },
     },
     .paths = .{
