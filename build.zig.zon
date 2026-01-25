@@ -5,8 +5,8 @@
     .minimum_zig_version = "0.14.0",
     .dependencies = .{
         .mimalloc = .{
-            .url = "https://github.com/microsoft/mimalloc/archive/refs/tags/v3.1.5.tar.gz  ",
-            .hash = "N-V-__8AAHPQTQDkH0rToYlrIp1SrXj7MNgneE3wnHa6SSYS",
+            .url = "https://github.com/microsoft/mimalloc/archive/refs/tags/v3.1.6.tar.gz",
+            .hash = "N-V-__8AALkiTgCAYi1CcemIkDIW4xssyHm6m6KmV45hRMSQ",
         },
     },
     .paths = .{
