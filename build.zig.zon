@@ -1,6 +1,6 @@
 .{
     .name = .mimalloc,
-    .version = "3.1.5",
+    .version = "3.1.6",
     .fingerprint = 0x26391c395c30266b,
     .minimum_zig_version = "0.14.0",
     .dependencies = .{
