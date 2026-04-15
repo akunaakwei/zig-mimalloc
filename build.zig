@@ -24,12 +24,12 @@ pub fn build(b: *std.Build) void {
         .name = "mimalloc",
         .root_module = lib_mod,
     });
-    lib.addCSourceFiles(.{
+    lib_mod.addCSourceFiles(.{
         .root = mimalloc_dep.path("src"),
         .files = &.{"static.c"},
         .flags = &.{"-Wno-date-time"},
     });
-    lib.addIncludePath(mimalloc_dep.path("include"));
+    lib_mod.addIncludePath(mimalloc_dep.path("include"));
     lib.installHeadersDirectory(mimalloc_dep.path("include"), ".", .{});
     b.installArtifact(lib);
 }

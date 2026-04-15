@@ -1,2 +1,2 @@
 # mimalloc
-This is the mimalloc allocator for Zig.
+This is the [mimalloc](https://github.com/microsoft/mimalloc) allocator for Zig.
